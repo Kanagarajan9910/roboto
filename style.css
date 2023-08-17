@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img {
+    height: 35px;
+    padding-left: 70px;
+}
+/* herosection */
+.hero{
+    /* background-image: url(./image/genius-coder-programme.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(./image/genius-coder-programme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 55vh;
+}
+.hero h1{
+    /* text-align: center; */
+    font-size:45px ;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-left: 10px;
+    color: white;
+    width: 100%;
+}
+.hero h2{
+    font-size: 20px;
+    color: white;
+}
+.content h3{
+    text-align: center;
+    font-size: 33px;
+    color: #32325d;
+}
+.content img{
+    width: 100%;
+    border-radius: 5px;
+}
+.content p{
+    color: #8898aa;
+}
+.cardsection h3{
+    text-align: center;
+    font-size: 33px;
+    color: #32325d;
+}
+.cardsection p{
+    font-size: 18px;
+    padding-top: 10px;
+    color: #8898aa;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: #FFFFFF80;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.body{
+    display: flex;
+}
+.link{
+    width: 50%;
+   
+}
+.link p{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    /* font-family: 'Opens',"sans-serif"; */
+}
+.link1{
+    width: 50%;
+   
+}
+.link1 p{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.link i{
+    text-align: left;
+}
+.whyus{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./image/digital-maker-courses.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* justify-content: center; */
+}
+.whyus h1{
+text-align: center;
+color: #ffffff;
+font-size: 40px;
+}
+.whyus p{
+    /* width: 80%; */
+    text-align: center;
+    font-size: 45px;
+    /* padding: 25px 10px; */
+    color: #eeb834;
+    font-weight: lighter;
+}
+.whyus h5{
+    width: 100%;
+    text-align: center;
+    font-size: 20x;
+    color: #ffffff;
+    display: block;
+    font-weight: 300;
+}
+.ready{
+    align-items: center;
+    justify-content: center;
+}
+.ready p{
+    text-align: center;
+    font-size: 35px;
+    /* padding: 50px 0px 50px 0px; */
+}
+.ready h5{
+    text-align: center;
+    /* font-size: 18px; */
+    color: #8898aa;
+    font-weight: 500;
+    padding-bottom: 10px;
+    
+}
+.ready h6{
+    text-align: center;
+    color: #8898aa;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.code{
+    background-color: #172B4d;
+}
+.code h4{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+
+}
+.code h5{
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+    color: #eeb834;
+    padding-bottom: 20px;
+}
+.code p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+.code h6{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.cardHeader img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+}
+.cardHeader i{
+    color: #32325d;
+    /* padding-left: 10px; */
+}
+.cardHeader p{
+    color: #32325d;
+    font-weight: 400;
+}
+.childlearns h1{
+    text-align: center;
+    font-size: 32px;
+    color: #32325d;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.childlearns h2{
+    text-align: center;
+    font-size: 16px;
+    color: #525F7F;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.childlearns h3{
+    text-align: center;
+    font-size: 16px;
+    color: #525F7F;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.childsection img{
+    width: 100%;
+    padding-bottom: 25px;
+}
+.childlearns h4{
+    text-align: center;
+    font-size: 24px;
+    color: #32325d;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.childlearns h5{
+    text-align: center;
+    font-size: 16px;
+    color: #525F7F;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+.footer{
+    background-color: #222222;
+}
+.robotocontact img{
+    padding-bottom: 30px;
+}
+.robotocontact p{
+    font-size: 16px;
+    color: #8898AA;
+}
+.robotocontact .phone{
+    color: #0094B9;
+}
+.robotocontact .mail{
+    color: #0094B9;
+}
+
